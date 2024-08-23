@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.12.1",
+    "dotenv": "^16.4.5",
+    "hono": "^4.5.7",
+    "mongoose": "^8.5.3",
+    "nodemailer": "^6.9.14",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^20.11.17",
+    "@types/nodemailer": "^6.4.15",
+    "@types/uuid": "^10.0.0",
+    "tsx": "^4.7.1"
+  }
+}
